@@ -3,6 +3,6 @@
 
  const userController = require('./controllers/userController');
 
- router.get('/tbl_user', userController.getUserAll);
+ router.get('/user', userController.getUserAll);
 
  module.exports = router;
